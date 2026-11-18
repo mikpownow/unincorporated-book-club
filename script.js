@@ -23,7 +23,7 @@ const books=[
 {year:2024,member:'jay',title:'The Heaven & Earth Grocery Store',author:'James McBride',cover:'heaven.jpg'},
 {year:2024,member:'charlie',title:"The Shepherd's Life",author:'James Rebanks',cover:'shepherd.jpg'},
 {year:2024,member:'michael',title:'Boy Swallows Universe',author:'Trent Dalton',cover:'boy_swallows_universe.jpg'},
-{year:2024,member:'miner',title:'True Grit',author:'Charles Portis',cover:'truegrit.jpg'},
+{year:2024,member:'miner',title:'Wandering Stars',author:'Tommy Orange',cover:'wandering_stars.jpg'},
 {year:2024,member:'jeff',title:"Winter's Bone",author:'Daniel Woodrell',cover:'winters_bone.jpg'},
 {year:2025,member:'paul',title:'The Wide Wide Sea',author:'Hampton Sides',cover:'widewide.jpg'},
 {year:2025,member:'jay',title:'The River We Remember',author:'William Kent Krueger',cover:'River.jpg'},
@@ -34,7 +34,8 @@ const books=[
 {year:2026,member:'jay',title:'This Is Happiness',author:'Niall Williams',cover:'this_is_happiness.jpg'},
 {year:2026,member:'michael',title:'Buckeye',author:'Patrick Ryan',cover:'buckeye.jpg'},
 {year:2026,member:'paul',title:'Apeirogon',author:'Colum McCann',cover:'apeirogon.jpg'},
-{year:2026,member:'charlie',title:'Lonesome Dove',author:'Larry McMurtry',cover:'lonesome.jpg'}
+{year:2026,member:'charlie',title:'Lonesome Dove',author:'Larry McMurtry',cover:'lonesome.jpg'},
+{year:2026,member:'jeff',title:'One Flew Over The Cuckoos Nest',author:'Ken Kesey',cover:'One_Flew_Over_the_Cuckoos_Nest.jpg'}
 ];
 const yearNav=document.getElementById('yearNav'),memberGrid=document.getElementById('memberGrid'),bookGrid=document.getElementById('bookGrid'),resultsTitle=document.getElementById('resultsTitle'),resultsEyebrow=document.getElementById('resultsEyebrow'),emptyState=document.getElementById('emptyState');
 let activeYear=null,activeMember=null;
